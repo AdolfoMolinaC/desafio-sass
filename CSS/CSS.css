@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+nav {
+  background-color: #e9e9e9 !important; }
+  nav a img {
+    animation-name: logo-in;
+    animation-duration: 1.5s; }
+  nav a img:hover {
+    background-color: #ffedcf; }
+
+@keyframes logo-in {
+  0% {
+    transform: translatex(-300px); }
+  100% {
+    transform: translatex(0); } }
+
+/* FOOTER */
+footer {
+  background-color: #e9e9e9;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.foot {
+  text-align: center; }
+  .foot .redes a {
+    color: #000; }
+
+.tienda {
+  height: 100vh; }
+
+.galeria {
+  background: linear-gradient(rgba(0, 0, 0, 0.201), rgba(0, 0, 0, 0.207)), url(../imagenes/11.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px; }
+
+.container .row {
+  padding-bottom: 15px; }
