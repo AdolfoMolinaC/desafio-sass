@@ -1,10 +1,10 @@
 nav {
-  background-color: #faf7e6 !important; }
+  background-color: #ffffff !important; }
   nav a img {
     animation-name: logo-in;
     animation-duration: 1.5s; }
   nav a img:hover {
-    background-color: #ffffff;
+    background-color: #faf7e6;
     border-radius: 20px; }
 
 @keyframes logo-in {
@@ -26,11 +26,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.foot {
-  text-align: center; }
-  .foot .redes a {
-    color: #000; }
+  footer .foot {
+    text-align: center; }
+    footer .foot .redes a {
+      color: #000; }
 
 .tienda {
   height: 100vh; }
