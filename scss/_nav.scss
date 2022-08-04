@@ -1,0 +1,24 @@
+@import "_variables";
+
+nav {
+    background-color: $color-nav !important;
+    
+    a img {
+    animation-name: logo-in;
+    animation-duration: 1.5s;
+    }
+    a img:hover {
+        background-color: $color-light;
+        border-radius: 20px;
+    }
+}
+
+
+@keyframes logo-in {
+    0%{
+        transform: translatex(-300px);
+    }
+    100%{
+        transform: translatex(0);
+    }
+}
